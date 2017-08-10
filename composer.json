@@ -1,0 +1,30 @@
+{
+    "name": "bennoislost/mage-whoops",
+    "description": "Filp Whoops integration for errors & exceptions for Magento 1",
+    "type": "magento-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben McManus"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1",
+        "symfony/var-dumper": "^3.3",
+        "goaop/framework": "^1.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "": [
+                "magento/app",
+                "magento/app/code/local",
+                "magento/app/code/community",
+                "magento/app/code/core",
+                "magento/lib"
+            ]
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

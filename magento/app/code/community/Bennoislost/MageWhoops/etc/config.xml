@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bennoislost_MageWhoops>
+            <version>0.0.1</version>
+        </Bennoislost_MageWhoops>
+    </modules>
+    <global></global>
+</config>
