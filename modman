@@ -5,4 +5,4 @@ magento/app/code/community/Bennoislost/MageWhoops    app/code/community/Bennoisl
 magento/app/code/community/Mage/Core/Exception.php    app/code/community/Mage/Core/Exception.php
 
 # Module Initializer
-magento/app/etc/Bennoislost_MageWhoops.xml    app/etc/Bennoislost_MageWhoops.xml
+magento/app/etc/modules/Bennoislost_MageWhoops.xml    app/etc/modules/Bennoislost_MageWhoops.xml
