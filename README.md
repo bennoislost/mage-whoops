@@ -23,7 +23,9 @@ Update consuming projects autoload paths
 Add bootstrap patch to `Mage.php` **after** Magento Composer installer patch.
 
 ```
-/** BENNOISLOST_WHOOPS_PATCH */
-require_once 'Bennoislost/MageWhoops/init.php';
-/** BENNOISLOST_WHOOPS_PATCH */
+/** BENNOISLOST_WHOOPS_PATCH **/
+if($whoopsInit = stream_resolve_include_path('Bennoislost/MageWhoops/init.php')) {
+    require_once $whoopsInit;
+}
+/** BENNOISLOST_WHOOPS_PATCH **/
 ```
